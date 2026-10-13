@@ -79,3 +79,6 @@ ul.big_list>li>.aa,div.title>.aa,ul.big_list>li>.zz,div.title>.zz{display:none!i
 ul.stats{flex-direction:column}
 ul.stats>li:first-child,ul.stats>li:last-child{flex:1 1 auto!important;width:100%!important}
 }
+/* tagboard (archivio 2009) allineata al resto */
+#al-tagboard{width:800px;max-width:96%;margin:10px auto}
+#al-tagboard table.skin_tbl{width:100%!important}
