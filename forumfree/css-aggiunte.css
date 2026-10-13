@@ -1,0 +1,41 @@
+
+/* ===== Compatibilita' skin 2009 con il template attuale di ForumFree (aggiunte) ===== */
+li.menu{background:none!important;border:0!important;height:auto!important}
+ul.big_list>li,div.title.top,div.title.bottom{display:flex!important;align-items:stretch}
+ul.big_list>li>div,div.title.top>div,div.title.bottom>div{box-sizing:border-box!important;display:block!important}
+.aa{flex:0 0 8%!important;width:auto!important}
+.bb{flex:0 0 48%!important;width:auto!important}
+.yy{flex:0 0 20%!important;width:auto!important}
+.zz{flex:0 0 24%!important;width:auto!important}
+/* targhette delle sezioni */
+#f3313181 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Welcome.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489088 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Salutisecondiani.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f3313157 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/NewsAnimeeManga.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489089 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/UserSupport.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489091 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Regolamenti.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489092 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Spam.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489094 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Abilitazioni.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489095 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Suggerimenti.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489895 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Bleach.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489896 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/DeathNote.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489897 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Dragonball.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489903 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Naruto.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489904 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/OnePiece.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489905 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Ranma.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489907 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/OtherSeries.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489908 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/100Shojo.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489909 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/SpoilerAnticipazioniCapitoli.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489927 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/GraphicsRichieste.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489929 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Tornei.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f6291980 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/TrucchiSoluzioni.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f8578467 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/OffTopic.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489951 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Videogames.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f5378464 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/CinemaeTv.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489955 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/TheMusic.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489781 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/WePowa0fFl00d.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f4892313 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/UploadSociety.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f6473504 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/A-LTeamRelease.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f5378110 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/TranslatoreFansub.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f6292047 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/A-LTop-1.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489777 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/CampingStaff-1.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+#f64489780 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Cestino.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
