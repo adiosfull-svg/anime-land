@@ -60,3 +60,22 @@ ul.board>li{width:100%!important}
 #f9295820 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/TopicBuoni.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
 /* sfondo generale a prova di schermo grande: banda superiore (due strati) + strisce seamless */
 body{background:url(https://adiosfull-svg.github.io/anime-land/img/sfondo-banda-a.png) repeat-x 0 0,url(https://adiosfull-svg.github.io/anime-land/img/sfondo-banda-b.png) repeat-x 0 60px,url(https://adiosfull-svg.github.io/anime-land/img/sfondo-strisce.png) repeat 0 150px #fff!important}
+/* pannello utenti attivi / statistiche affiancati */
+ul.stats{display:flex!important;align-items:flex-start;gap:6px;width:100%!important}
+ul.stats>li{display:block!important;width:auto!important;float:none!important}
+ul.stats>li:first-child{flex:1 1 66%!important}
+ul.stats>li:last-child{flex:0 0 32%!important}
+/* cornici laterali complete sopra/sotto ogni sezione (pezzi 35-3/35-4/35-5/35-6/35-7/35-8 della skin) */
+ul.board>li.skin_tbl{position:relative!important;box-sizing:border-box!important;padding:0 26px 0 29px!important}
+ul.board>li.skin_tbl::before,ul.board>li.skin_tbl::after{content:"";position:absolute;top:0;bottom:0;pointer-events:none}
+ul.board>li.skin_tbl::before{left:0;width:29px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-3.png) right top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-5.png) right bottom 28px no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-4.png) right 44px/11px calc(100% - 83px) no-repeat}
+ul.board>li.skin_tbl::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-6.png) left top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-8.png) left bottom 28px no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left 44px/11px calc(100% - 83px) no-repeat}
+/* telefoni e finestre strette */
+@media (max-width:700px){
+ul.big_list>li>.aa,div.title>.aa,ul.big_list>li>.zz,div.title>.zz{display:none!important}
+.bb{flex:1 1 auto!important;min-width:0!important}
+.yy{flex:0 0 84px!important}
+#container ul.board li[id^=f] .bb{background-size:110px auto!important;padding-left:118px!important}
+ul.stats{flex-direction:column}
+ul.stats>li:first-child,ul.stats>li:last-child{flex:1 1 auto!important;width:100%!important}
+}
