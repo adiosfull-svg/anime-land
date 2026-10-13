@@ -82,3 +82,13 @@ ul.stats>li:first-child,ul.stats>li:last-child{flex:1 1 auto!important;width:100
 /* tagboard (archivio 2009) allineata al resto */
 #al-tagboard{width:800px;max-width:96%;margin:10px auto}
 #al-tagboard table.skin_tbl{width:100%!important}
+
+/* ===== larghezza "d'epoca" (90% della finestra, come #container originale) e menu sotto il logo ===== */
+div.container{width:90%!important;max-width:1500px!important;margin-left:auto!important;margin-right:auto!important}
+#al-tagboard{width:90%!important;max-width:1500px!important}
+td.mleft_top,td.mleft,td.mleft_bottom,td.mright_top,td.mright,td.mright_bottom{display:table-cell!important}
+td.mleft_top{min-width:29px}td.mright_top{min-width:26px}td.mleft,td.mleft_bottom,td.mright,td.mright_bottom{min-width:20px}
+div.Fixed li.menu{padding:0 12px!important}
+#al-menu{width:800px;max-width:100%;box-sizing:border-box;height:25px;line-height:23px;margin:0 auto 6px;text-align:center;background:#F3F5F7 url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-10.png) repeat-x;border:1px solid #9295A4;border-top:0;font:bold 11px Verdana,Arial,sans-serif}
+#al-menu a{display:inline-block;padding:0 14px;color:#1C3A6B;text-decoration:none}
+#al-menu a:hover{color:#008BC2;text-decoration:underline}
