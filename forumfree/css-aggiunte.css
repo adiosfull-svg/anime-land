@@ -58,3 +58,5 @@ ul.board>li{width:100%!important}
 #f8260008 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/RichiesteBacheche.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
 #f8260009 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/EsposizioniBacheche.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
 #f9295820 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/TopicBuoni.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+/* sfondo generale a prova di schermo grande: banda superiore + strisce che si ripetono senza giunzioni */
+body{background:url(https://adiosfull-svg.github.io/anime-land/img/sfondo-banda.png) repeat-x 0 0,url(https://adiosfull-svg.github.io/anime-land/img/sfondo-strisce.png) repeat 0 150px #fff!important}
