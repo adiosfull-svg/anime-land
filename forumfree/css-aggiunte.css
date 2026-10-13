@@ -124,3 +124,10 @@ div.forum>div.skin_tbl::after{right:0;width:26px;background:url(https://adiosful
 .mtitle h1,.mtitle h2{font-size:inherit!important;font-weight:inherit!important;margin:0!important}
 /* barra in alto "sticky": sfondo pieno */
 div.menuwrap{background:#fff url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-10.png) repeat-x!important;border-bottom:1px solid #9295A4!important;box-sizing:border-box}
+/* ===== pagine discussione e risposta rapida: cornici complete ===== */
+div.topic>div.skin_tbl,div.fast>div.skin_tbl{position:relative!important;box-sizing:border-box!important;padding:0 26px 0 29px!important}
+div.topic>div.skin_tbl::before,div.topic>div.skin_tbl::after,div.fast>div.skin_tbl::before,div.fast>div.skin_tbl::after{content:"";position:absolute;top:0;bottom:0;pointer-events:none}
+div.topic>div.skin_tbl::before,div.fast>div.skin_tbl::before{left:0;width:29px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-3.png) right top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-4.png) right 44px/11px calc(100% - 44px) no-repeat}
+div.topic>div.skin_tbl::after,div.fast>div.skin_tbl::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-6.png) left top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left 44px/11px calc(100% - 44px) no-repeat}
+/* briciole di pane: piu' staccate dalla Bacheca e vicine alla discussione */
+ul.nav{margin:20px 0 0 29px!important}
