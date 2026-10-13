@@ -43,3 +43,8 @@ ul.big_list>li>div,div.title.top>div,div.title.bottom>div{box-sizing:border-box!
 li.menu{width:auto!important;white-space:nowrap}
 ul.board{display:block!important}
 ul.board>li{display:block!important;width:92%!important;margin:0 auto 12px!important;float:none!important}
+ul.big_list{display:block!important;width:100%!important}
+ul.big_list>li{width:100%!important;float:none!important}
+div.container{width:800px!important;max-width:96%!important;margin-left:auto!important;margin-right:auto!important}
+table.skin_tbl{width:100%!important}
+ul.board>li{width:100%!important}
