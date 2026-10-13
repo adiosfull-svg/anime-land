@@ -108,3 +108,19 @@ ul.stats>li.skin_tbl.bottom::before{left:0;width:29px;background:url(https://adi
 ul.stats>li.skin_tbl.bottom::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-8.png) left bottom no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left top/11px calc(100% - 11px) no-repeat}
 ul.stats>li.skin_tbl.bottom>table.mback{display:none!important}
 ul.stats>li.skin_tbl.bottom>div.mainbg{border-top:1px solid #ADBAC6!important}
+/* ===== pagine sezione (elenco discussioni): righe in colonne come nel 2009 ===== */
+ol.big_list{display:block!important;width:100%!important;margin:0;padding:0}
+ol.big_list>li{display:flex!important;width:100%!important;float:none!important;align-items:stretch}
+ol.big_list>li>div,div.forum div.title>div{box-sizing:border-box!important;display:block!important;width:auto!important;min-width:0}
+ol.big_list>li>.aa,div.forum div.title>.aa{flex:0 0 5%!important}
+ol.big_list>li>.bb,div.forum div.title>.bb{flex:1 1 40%!important}
+ol.big_list>li>.xx,div.forum div.title>.xx{flex:0 0 14%!important}
+ol.big_list>li>.yy,div.forum div.title>.yy{flex:0 0 12%!important}
+ol.big_list>li>.zz,div.forum div.title>.zz{flex:0 0 22%!important}
+div.forum>div.skin_tbl{position:relative!important;box-sizing:border-box!important;padding:0 26px 0 29px!important}
+div.forum>div.skin_tbl::before,div.forum>div.skin_tbl::after{content:"";position:absolute;top:0;bottom:0;pointer-events:none}
+div.forum>div.skin_tbl::before{left:0;width:29px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-3.png) right top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-5.png) right bottom 28px no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-4.png) right 44px/11px calc(100% - 83px) no-repeat}
+div.forum>div.skin_tbl::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-6.png) left top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-8.png) left bottom 28px no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left 44px/11px calc(100% - 83px) no-repeat}
+.mtitle h1,.mtitle h2{font-size:inherit!important;font-weight:inherit!important;margin:0!important}
+/* barra in alto "sticky": sfondo pieno */
+div.menuwrap{background:#fff url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-10.png) repeat-x!important;border-bottom:1px solid #9295A4!important;box-sizing:border-box}
