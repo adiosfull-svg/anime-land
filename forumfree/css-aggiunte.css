@@ -132,6 +132,6 @@ div.topic>div.skin_tbl::after,div.fast>div.skin_tbl::after{right:0;width:26px;ba
 /* briciole di pane: piu' staccate dalla Bacheca e vicine alla discussione */
 ul.nav{margin:20px 0 0 29px!important}
 /* ===== messaggi di una discussione: uno sotto l'altro (la regola generica li{display:table-cell} li metteva in riga) ===== */
-ol.List{display:block!important;width:100%!important}
-ol.List>li{display:block!important;width:100%!important;float:none!important}
-ol.List>li>table{width:100%!important}
+div.topic ol{display:block!important;width:100%!important}
+div.topic ol>li{display:block!important;width:100%!important;float:none!important}
+div.topic ol>li>table{width:100%!important}
