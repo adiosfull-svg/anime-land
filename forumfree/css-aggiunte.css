@@ -39,3 +39,7 @@ ul.big_list>li>div,div.title.top>div,div.title.bottom>div{box-sizing:border-box!
 #f6292047 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/A-LTop-1.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
 #f64489777 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/CampingStaff-1.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
 #f64489780 .bb{background:url(https://adiosfull-svg.github.io/anime-land/img/Cestino.png) no-repeat 6px 50%!important;padding-left:170px!important;min-height:72px}
+/* barra superiore e contenitori bacheche */
+li.menu{width:auto!important;white-space:nowrap}
+ul.board{display:block!important}
+ul.board>li{display:block!important;width:92%!important;margin:0 auto 12px!important;float:none!important}
