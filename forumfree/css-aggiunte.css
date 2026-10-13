@@ -95,3 +95,16 @@ div.Fixed li.menu{padding:0 12px!important}
 li.menu>a{padding:0 12px!important;box-sizing:content-box!important}
 /* barra ForumFree in alto: una regola generica "li{width:1%}" schiacciava le voci (login, menu) */
 ul.left>li,ul.right>li{width:auto!important}
+/* menu a tendina della barra in alto: sfondo pieno (era trasparente) */
+li.menu>ul{background:#fff!important;border:1px solid #9295A4!important;padding:6px 12px!important;z-index:99999!important;box-shadow:0 3px 8px rgba(0,0,0,.3)!important;min-width:150px}
+li.menu>ul>li{display:block!important;width:auto!important;white-space:nowrap;padding:2px 0!important;background:none!important;float:none!important}
+/* pannello unico "utenti attivi + statistiche" come nel 2009 */
+ul.stats{display:block!important}
+ul.stats>li.skin_tbl{display:block!important;width:100%!important;flex:none!important;position:relative!important;box-sizing:border-box!important;padding:0 26px 0 29px!important}
+ul.stats>li.skin_tbl::before,ul.stats>li.skin_tbl::after{content:"";position:absolute;top:0;bottom:0;pointer-events:none}
+ul.stats>li.skin_tbl.top::before{left:0;width:29px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-3.png) right top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-4.png) right 44px/11px calc(100% - 44px) no-repeat}
+ul.stats>li.skin_tbl.top::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-6.png) left top no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left 44px/11px calc(100% - 44px) no-repeat}
+ul.stats>li.skin_tbl.bottom::before{left:0;width:29px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-5.png) right bottom no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-4.png) right top/11px calc(100% - 11px) no-repeat}
+ul.stats>li.skin_tbl.bottom::after{right:0;width:26px;background:url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-8.png) left bottom no-repeat,url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-7.png) left top/11px calc(100% - 11px) no-repeat}
+ul.stats>li.skin_tbl.bottom>table.mback{display:none!important}
+ul.stats>li.skin_tbl.bottom>div.mainbg{border-top:1px solid #ADBAC6!important}
