@@ -1,0 +1,219 @@
+/*============================================================
+ skin "Anime-Land V 4.5" - ForumFree Style ID 40
+ ricostruita dall'archivio Wayback Machine(cattura del 10/02/2009)============================================================
+ nota importante:
+ molte immagini erano hostate su photobucket e tinypic, servizi
+ che oggi(2026) non esistono più o bloccano l'hotlinking.
+ quelle immagini non si vedranno finché non le sostituisci con
+ nuovi url(puoi ri-uploadarle su imgbb.com, postimages.org, o
+ direttamente negli allegati del forum).
+ le immagini su img.forumfree.net/style_images/40/ hanno più
+ probabilità di essere ancora online, essendo lo stile di base
+ di forumfree.============================================================ */
+
+body {background-attachment: fixed; margin: 0; padding: 0}
+img {border: 0}
+.header_width, .skin_tbl_width, .skin_tbl, .stats .border {width: 95%; border: 0}
+
+.header {background-image: url(http://img.forumfree.net/style_images/40/header_tile.gif)}
+.mback {background-image: url(http://img.forumfree.net/style_images/40/tile_back.gif)}
+
+/* ATTENZIONE: immagine Photobucket, probabilmente morta */
+.title {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-13.png)}
+
+.bar_left {background-image: url(http://img.forumfree.net/style_images/40/bar_left.gif); background-repeat: no-repeat; background-position: center; width: 4px; height: 11px}
+.bar {background-image: url(http://img.forumfree.net/style_images/40/bar.gif); background-repeat: repeat-x; background-position: center; height: 11px}
+.bar_right {background-image: url(http://img.forumfree.net/style_images/40/bar_right.gif); background-repeat: no-repeat; background-position: center; width: 4px; height: 11px}
+.darkline {background-image: url(http://img.forumfree.net/style_images/40/dark_line.gif); background-position: center; width: 155px; height: 1px; margin: 3px 0 3px 0}
+.menu_right a:link, .menu_right a:visited {text-decoration: none}
+.board .mback, .tag .mback, .right_bottom input, label {cursor: pointer}
+.title, .small, .right_top, .right_bottom td {white-space: nowrap}
+.forum .web {font-weight: normal}
+.nav, .mtitle, .bb, .zz {text-align: left}
+.board table, .forum table, .left td {text-align: center}
+.lt {float: left}
+.rt {text-align: right}
+.left_top {width: 166px !important; width: auto}
+.left {padding: 0}
+.post .details {padding: 4px; margin-bottom: -4px}
+.avatarn_bottom img {width: 162px; height: 0}
+.right .bottomborder {width: 96px; height: 15px; clear: both}
+.plus, .minus {background-position: center; background-repeat: no-repeat; font-size: 1px}
+.alert {font-size: 13px; line-height: 150%}
+.board .s {float: left; margin: 4px 12px 3px 4px}
+.zz input {float: right; position: relative; top: 2px}
+
+#leftdiv {float: left; display: inline}
+#rightdiv {float: right; display: inline}
+#leftdiv, #rightdiv {width: 20%}
+#centerdiv {width: 98%; max-width: 56%; margin: 0 auto}
+#cleardiv {clear: both}
+#calendar td {padding: 0}
+
+body {background-color: #FFF; font-family: verdana, tahoma, arial; font-size: 8.5pt; color: #222}
+table, div {font-size: 7.5pt; color: #222}
+a:link, a:visited {text-decoration: none; color: #222}
+a:hover {color: #909090}
+
+/* SCRITTE ESTERNE */
+.nav {font-weight: bold; font-size: 8pt}
+
+/* DIMENSIONI FORUM */
+.header_width, .skin_tbl_width, .skin_tbl {width: 92%}
+.stats .border {width: 86%}
+
+/* COLORI LISTA UTENTI ATTIVI */
+.amministratore {color: #0B1BED; font-weight: bold}
+.moderatore {color: #ED0B2B; font-weight: bold}
+.utente {}
+.daconvalidare {color: #439B43}
+.gruppo1 {color: #3B83F0; font-weight: bold}
+.gruppo2 {color: #B980FF; font-weight: bold}
+.gruppo3 {color: #F75100; font-weight: bold}
+.gruppo4 {color: #58BA55; font-weight: bold}
+.gruppo5 {color: #F1CD12; font-weight: bold}
+.gruppo6 {color: #E55454; font-weight: bold}
+.gruppo7 {color: #8DE3F0; font-weight: bold}
+.gruppo8 {color: #00F000; font-weight: bold}
+.gruppo9 {color: #FCDE52; font-weight: bold}
+.gruppo10 {color: #D1F000; font-weight: bold}
+.gruppo11 {color: #1D6297; font-weight: bold}
+.gruppo12 {color: #78B0C5; font-weight: bold}
+.gruppo13 {color: #3700A4; font-weight: bold}
+
+/* BARRA ATTORNO AL FORUM */
+.mback {height: 29px; background-image: none}
+.mtitle {padding-top: 13px; font-weight: bold; font-size: 8pt; text-align: center}
+.mback_left {width: 122px; height: 44px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn354An.png); background-repeat: no-repeat; background-position: bottom}
+.mback_center {height: 33px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-1.png); background-repeat: repeat-x; background-position: bottom}
+.mback_right {width: 124px; height: 44px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-2.png); background-repeat: no-repeat; background-position: bottom}
+.mback {height: 38px; border-bottom: 1px solid #ADBAC6; background-image: none}
+.mleft_top {width: 29px; height: 44px; background-postition: bottom; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-3.png); background-position: top right; background-repeat: no-repeat}
+.mleft, .sep_left {width: 20px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-4.png); background-position: right; background-repeat: repeat-y}
+.mleft_bottom {width: 20px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-5.png); background-position: top right; background-repeat: no-repeat}
+.mright_top {width: 26px; height: 44px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-6.png); background-position: top left; background-repeat: no-repeat}
+.mright, .sep_right {width: 20px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-7.png); background-position: left; background-repeat: repeat-y}
+.mright_bottom {width: 20px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-8.png); background-position: top left; background-repeat: no-repeat}
+.msub {height: 39px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-9.png); background-position: top; background-repeat: repeat-x}
+
+/* BARRA UTENTE */
+.header {background-color: #FFFFFF; border: 1px solid #9295A4}
+.menu {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-10.png); height: 25px; background-color: #F3F5F7; border: 1px solid #9295A4; border-top: 0}
+.menu .highlight, .msg .highlight {color: #008BC2}
+
+/* SEZIONI FORUM */
+.mainbg {background-color: #FFF; border: 1px solid #9295A4}
+.title {background-repeat: repeat-x; background-color: #6CAEE2; color: #3A4F6C; font-weight: bold}
+.title a:link, .title a:visited {color: #3A4F6C}
+.title a:hover {color: #4A668A}
+.aa, .bb, .cc, .ww, .xx, .yy, .zz {border: 1px solid #F2F2F2}
+.web {font-size: 8.5pt; line-height: 150%}
+.web a:link, .web a:visited {text-decoration:}
+.desc {font-size: 10px; color: #666}
+.foot {background-color: #F2F2F2; font-weight: bold}
+.board .foot {display: none}
+
+/* STATISTICHE */
+.skin_tbl_border {background-color: #9295A4}
+.stats .title2, .stats .sunbar {text-align: center; padding-top: 8px}
+.stats .title2 {height: 28px; background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-10.png); background-repeat: repeat-x; background-color: #E5E6EA; color: #222; font-weight: bold; font-size: 8pt}
+.sunbar {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-11.png); background-repeat: repeat-x; background-color: #6CAEE2; color: #3A4F6C; font-weight: bold}
+.stats .aa, .stats .ww {background-color: #FFF; border: 0}
+
+/* LINK MOD */
+.highlight a:hover {color: #7D2020}
+
+/* DISCUSSIONE */
+.topic .mainbg {border-bottom: 0}
+.post .mainbg, .topic #end .mainbg {border-bottom: 1px solid #9295A4}
+.left_top, .right_top, .left_bottom, .right_bottom {border: 1px solid #F2F2F2}
+.nick {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-12.jpg); background-repeat: repeat-y; border-top: 1px dashed #C3C9CD; border-right: 1px double #C3C9CD; font-weight: bold; border-bottom: 1px dashed #C3C9CD; font-size: 12px; color: #0075FE; padding-bottom: 2px}
+.nick a:link, .nick a:visited {text-decoration: underline}
+.quote {font-size: 11px; background-color: #FAFAFA; border: 1px dashed #9295A4; padding: 2px}
+.code {font-family: courier, courier new, verdana, arial; font-size: 11px; background-color: #FAFAFA; border: 1px dashed #9295A4; padding: 2px}
+.color {font-size: 9.5pt; line-height: 150%}
+.color a:link, .color a:visited {text-decoration: underline}
+hr {color: #4C9FD4}
+.fancyborder {background-color: #FAFAFA; border: 1px dashed #9295A4}
+.edit {font-size: 9px; font-style: italic}
+.bottomborder {border-bottom: 1px dashed #9295A4}
+.signature {font-size: 7.5pt; color: #666; line-height: 150%}
+.sep {background-color: #F2F2F2; height: 5px; border-left: 1px solid #9295A4; border-right: 1px solid #9295A4}
+#end .title {background-image: url(http://img.forumfree.net/style_images/40/tile_sub2.gif); background-color: #E5E6EA; color: #222}
+#end .title a:hover {color: #909090}
+
+/* MESSENGER */
+.msg_main {background-color: #FBFBFB}
+.darkbar {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-13.png); background-repeat: repeat-x; background-color: #6CAEE2; color: #3A4F6C; font-weight: bold}
+.darkbar a:link, .darkbar a:visited {color: #3A4F6C}
+.darkbar a:hover {color: #4A668A}
+.row1 {background-color: #FFF}
+.row2 {background-image: url(http://img.forumfree.net/style_images/40/tile_sub2.gif); background-repeat: repeat-x; background-color: #DCDEE1; font-weight: bold}
+.row3 {border: 1px solid #F2F2F2; background-color: #FFF}
+.title3 {font-weight: bold; background-color: #F0F9FD}
+.msg .details p {color: #003; font-size: 10px; line-height: 150%}
+.info {color: #008BC2}
+.alert {color: #E62222}
+
+/* PROFILO UTENTI */
+.pagetitle {font-size: 18px; font-weight: bold; letter-spacing: -1px; line-height: 120%}
+.title2 {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/httpi320photobucketcomalbumsnn35-13.png); background-repeat: repeat-x; background-color: #6CAEE2; color: #3A4F6C; font-weight: bold}
+.title2 a:link, .title2 a:visited {color: #3A4F6C}
+.title2 a:hover {color: #4A668A}
+
+/* INPUT */
+.textinput {background: linear-gradient(#FFFFFF, #FFFFFF) background-color: #FFF; color: #000; font-size: 8.5pt; font-family: verdana, helvetica, sans-serif; vertical-align: middle}
+.forminput {font-size: 11px; font-family: verdana, helvetica, sans-serif; vertical-align: middle; color: #000; background-color: #FFF; background-image: url(http://img.forumfree.net/style_images/40/tile_sub2.gif)}
+.input, .codebuttons {font-size: 7.5pt; font-family: verdana, helvetica, sans-serif; vertical-align: middle; color: #000; background-color: #FFF; border: 1px dashed #999; background-image: url(http://img.forumfree.net/style_images/40/tile_sub2.gif)}
+
+/* CONTAINER */
+#container {background-color: #FFFFFF; margin-left: auto; margin-right: auto; width: 90%}
+/* ATTENZIONE: immagini TinyPic, quasi certamente morte(servizio chiuso nel 2019) */
+#contentleft {background: url(http://i27.tinypic.com/2r2vcs2.jpg) left repeat-y}
+#contentright {background: url(http://i28.tinypic.com/263k9hd.jpg) right repeat-y}
+
+.web a:link img, .web a:visited img {filter:alpha(opacity=30); -moz-opacity: 0.5; opacity: 0.5}
+.web a:hover img {filter:alpha(opacity=100); -moz-opacity: 1.0; opacity: 1.0}
+
+.originale {position: relative; z-index: 0}
+.originale:hover {background-color: transparent; z-index: 9}
+.originale span {position: absolute; background-color: #EEEFEE; padding: 5px; right: 0; display: none; border: 3px solid #656262; visibility: hidden; color: #868686; text-decoration: none; font-weight: bold}
+.originale span img {border-width: 0; padding: 2px}
+.originale:hover span {visibility: visible; top: 10px; display: block; width: 200px; left: 15px}
+
+.originaleb {position: relative; z-index: 0}
+.originaleb:hover {background-color: transparent; z-index: 9}
+.originaleb span {position: absolute; background-color: #EEEFEE; padding: 5px; right: 0; display: none; border: 3px solid #656262; visibility: hidden; color: #868686; text-decoration: none; font-weight: bold}
+.originaleb span img {border-width: 0; padding: 2px}
+.originaleb:hover span {visibility: visible; top: 20px; display: block; width: 455px; left: 30px}
+
+.originalec {position: relative; z-index: 0}
+.originalec:hover {background-color: transparent; z-index: 9}
+.originalec span {position: absolute; background-color: #EEEFEE; padding: 5px; right: 0; display: none; border: 3px solid #656262; visibility: hidden; color: #868686; text-decoration: none; font-weight: bold}
+.originalec span img {border-width: 0; padding: 2px}
+.originalec:hover span {visibility: visible; top: 20px; display: block; width: 455px; left: 30px}
+
+.anteprima {position: relative; z-index: 0}
+.anteprima:hover {background-color: transparent; z-index: 9}
+.anteprima span {position: absolute; background-color: #EEEFEE; padding: 5px; right: 0; display: none; border: 3px solid #656262; visibility: hidden; color: #868686; text-decoration: none; font-weight: bold}
+.anteprima span img {border-width: 0; padding: 2px}
+.anteprima:hover span {visibility: visible; top: -230px; display: block; width: 170px; left: -40}
+
+.signature .default, .profile .default {display: none}
+.signature {display: block}
+
+/* ATTENZIONE: header e sfondo principale, immagini Photobucket - molto probabilmente morte */
+.header {background-image: url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/Anime-LandLogo4Inferiorecopia.png); background-repeat: no-repeat; background-position: center; border: 0}
+.header_width {background-image: none; width: 800px}
+body {background-image:url(http://i363.photobucket.com/albums/oo72/Ct_The_Small/sfondo2.png)}
+
+.mback, .msub, table.mainbg, .skin_tbl_border {width: 100%}
+.menu img, .nav img, .board img, .forum img, .tag .img, .mtitle img, .icon, .row1 img, input {vertical-align: middle}
+ {display: none}
+.opacity {-moz-opacity: 0.60; -khtml-opacity: 0.60; filter:alpha(opacity=60); opacity: 0.60}
+.mback_left div, img.mleft, img.mright, img.sep_left, img.sep_right {visibility: hidden; height: 0}
+.quote_top, .quote_top, .quote, .code_top, .code_top, .code {width: auto !important; width: 95%; margin: 2pt 14pt 2pt 14pt !important; margin: 3px}
+.quote, .code {margin: 0}
+form {display: inline}
+
+.spoiler {display: none}
