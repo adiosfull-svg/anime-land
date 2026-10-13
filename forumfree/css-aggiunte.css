@@ -92,3 +92,4 @@ div.Fixed li.menu{padding:0 12px!important}
 #al-menu{width:800px;max-width:100%;box-sizing:border-box;height:25px;line-height:23px;margin:0 auto 6px;text-align:center;background:#F3F5F7 url(https://adiosfull-svg.github.io/anime-land/img/httpi320photobucketcomalbumsnn35-10.png) repeat-x;border:1px solid #9295A4;border-top:0;font:bold 11px Verdana,Arial,sans-serif}
 #al-menu a{display:inline-block;padding:0 14px;color:#1C3A6B;text-decoration:none}
 #al-menu a:hover{color:#008BC2;text-decoration:underline}
+li.menu>a{padding:0 12px!important;box-sizing:content-box!important}
