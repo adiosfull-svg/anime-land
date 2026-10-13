@@ -1,0 +1,13 @@
+ANIME-LAND V 4.5 - ricostruzione dallo snapshot Wayback del 28/02/2009
+
+Contenuto
+  index.html               home del forum, ripulita da toolbar e script di Wayback (UTF-8)
+  css/skin.css             il CSS della skin originale, estratto e leggibile
+  img/                     143 immagini recuperate dall'archivio
+  immagini_mancanti.json   87 immagini della skin che NON erano nell'archivio (URL originali)
+  scarica_immagini.py      le scarica da Wayback Machine nella cartella img/
+
+Come completare
+  1. Apri un terminale nella cartella e lancia:   python scarica_immagini.py
+     (serve solo Python 3; ci vorranno un paio di minuti; si puo' rilanciare)
+  2. Rimandami la cartella img/ aggiornata (zip) e il file non_trovate.txt, se creato.
