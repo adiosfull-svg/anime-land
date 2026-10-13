@@ -93,3 +93,5 @@ div.Fixed li.menu{padding:0 12px!important}
 #al-menu a{display:inline-block;padding:0 14px;color:#1C3A6B;text-decoration:none}
 #al-menu a:hover{color:#008BC2;text-decoration:underline}
 li.menu>a{padding:0 12px!important;box-sizing:content-box!important}
+/* barra ForumFree in alto: una regola generica "li{width:1%}" schiacciava le voci (login, menu) */
+ul.left>li,ul.right>li{width:auto!important}
